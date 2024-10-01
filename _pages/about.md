@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='https://ingenieria.uai.cl/'>Faculty of Engineering and Sciences. UAI
 
 profile:
-  align: left
+  align: right
   image: Jorge.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
