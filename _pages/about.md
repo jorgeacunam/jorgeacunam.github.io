@@ -13,7 +13,7 @@ profile:
     <p>Av. Padre Hurtado 750 </p>
     <p>Viña del Mar, Chile</p>
 
-news: true # includes a list of news items
+news: true # includes a list of news itemss
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
