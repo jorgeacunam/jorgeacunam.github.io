@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: <a href='https://ingenieria.uai.cl/'>Faculty of Engineering and Sciences. UAI </p>
-          <a href='https://ingenieria.uai.cl/'>Faculty of Engineering and Sciences. UAI
+          <a href='https://www.usf.edu/engineering/imse/'>Industrial and Management Systems Engineering. USF
 
 profile:
   align: right
