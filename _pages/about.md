@@ -7,7 +7,7 @@ subtitle: <a href='https://ingenieria.uai.cl/'>Faculty of Engineering and Scienc
 profile:
   align: right
   image: Jorge.JPG
-  image_circular: false # crops the image to make it circular or not square
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Office: A-215</p>
     <p>Av. Padre Hurtado 750 </p>
