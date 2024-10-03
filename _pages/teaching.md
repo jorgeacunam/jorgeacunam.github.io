@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: 
+description: Presented below is a selection of courses I have taught in recent years. For a comprehensive overview of additional courses and further details regarding my research experience, I invite you to consult my CV.
 nav: true
 nav_order: 6
 ---
