@@ -20,12 +20,12 @@ nav_order: 6
 
 ### Universidad Adolfo Ibáñez <a id="UAI"></a>
 #### ING-200 Optimization <a id="optimization"></a>
-Optimization involves making the best selection from a set of elements. The goal is to achieve the best possible outcome given a set of limited resources. In mathematical terms, this refers to finding the optimal values that maximize or minimize a function, depending on the situation. Optimization is used in a variety of problems such as operations management, logistics, communications, strategic planning, among many other areas. The objective of this course is to develop skills that allow students to take an abstract decision-making problem, appropriately model it as an optimization problem, solve it, and interpret its solution. The general topics covered in the course are: modeling, linear programming, sensitivity analysis, integer programming, and nonlinear programming.
+Optimization involves making the best selection from a set of elements. The goal is to achieve the best possible outcome given limited resources. In mathematical terms, this refers to finding the optimal values that maximize or minimize a function, depending on the situation. Optimization is used in a variety of problems, such as operations management, logistics, communications, and strategic planning, among many other areas. This course aims to develop skills that allow students to take an abstract decision-making problem, appropriately model it as an optimization problem, solve it, and interpret its solution. The general topics covered in the course are modeling, linear programming, sensitivity analysis, integer programming, and nonlinear programming.
 
 Learning Outcomes
 
 * Formulate optimization models of different types (continuous or discrete, linear or nonlinear) from various contexts.
-* Solve different optimization models using various methods such as: graphical method, Simplex, branch and bound, and Karush-Kuhn-Tucker conditions.
+* Solve different optimization models using various methods such as graphical method, Simplex, branch and bound, and Karush-Kuhn-Tucker conditions.
 * Analyze and solve optimization problems using computational tools.
 
 #### ING480 Process and Service Design <a id="process"></a>
