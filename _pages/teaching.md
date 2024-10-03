@@ -31,7 +31,7 @@ Learning Outcomes
 * Analyze and solve optimization problems using computational tools.</p>
 
 #### ING480 Process and Service Design <a id="process"></a>
-This course covers concepts and methods for efficiently designing and managing operations to align the supply (production) of a good or service with the demand for them. The course addresses process identification, productivity,  cost analysis, and process management in manufacturing and service companies.In general, the goal of the course is for students to be able to answer questions such as: How should I produce the goods or services required by a company's customers? How can I improve a company's processes? How can I improve the productivity of a process? How can I improve quality and consistently produce high-quality outputs?
+This course covers concepts and methods for efficiently designing and managing operations to align a good or service's supply (production) with its demand. The course addresses process identification, productivity,  cost analysis, and process management in manufacturing and service companies. In general, the goal of the course is for students to be able to answer questions such as: How should I produce the goods or services required by a company's customers? How can I improve a company's processes? How can I improve the productivity of a process? How can I improve quality and consistently produce high-quality outputs?
 
 More specifically, by the end of the course, students will be able to:
 * Understand processes in the context of manufacturing and services.
@@ -56,4 +56,4 @@ When you take photos with your cell phone, play video games, or do a Google sear
 
 ### Universidad de La Frontera <a id="UFRO"></a>
 #### GIC305 Data Analysis <a id="data"></a>
-
+This course focuses on statistical learning for data science and analytics. With the rapid advancement of sensing technology and information systems, massive amounts of data have been generated in various fields, ranging from engineering to applied science. There is an increasing need for data scientists and analysts with the skills and knowledge to analyze and interpret such data to extract patterns and gain insights for problem-solving and decision-making. The objective is to provide the student with various data mining and statistical learning techniques, emphasizing concepts and applications. These techniques include regression, classification, clustering, dimension reduction, and high-dimensional analysis. Specific concepts we review in this course are linear and logistic regression, decision trees, random forest, dimensionality reduction, clustering, and visualization. 
