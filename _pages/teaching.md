@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Presented below is a selection of courses I have taught in recent years. For a comprehensive overview of additional courses and further details regarding my teaching experience, I invite you to consult my <a href='https://jorgeacunam.github.io/assets/pdf/CV_Jorge_Acuna_2024.pdf'>CV by clicking HERE</a>.
+description: Presented below is a selection of courses I have taught in recent years. For a comprehensive overview of additional courses and further details regarding my teaching experience, I invite you to consult my <a href='https://jorgeacunam.github.io/assets/pdf/CV_Jorge_Acuna_2024.pdf'>CV by clicking here</a>.
 nav: true
 nav_order: 6
 ---
