@@ -7,13 +7,16 @@ nav: true
 nav_order: 6
 ---
 
-### Universidad Adolfo Ibáñez
-* ING200 Optimization.
+### <a href='https://www.uai.cl/'> Universidad Adolfo Ibáñez
+* [ING200 Optimization](#optimization).
 * ING480 Process and Service Design.
 
-### University of South Florida
+### <a href='https://www.usf.edu/'> University of South Florida
 * ENG3443 Probability and Statistics.
 * EGN4450 Introduction to Linear Systems.
 
-### Universidad de La Frontera
+### <a href='https://www.ufro.cl/'> Universidad de La Frontera
 * GIC305 Data Analysis.
+
+## ING-200 Optimization
+{#optimization}
