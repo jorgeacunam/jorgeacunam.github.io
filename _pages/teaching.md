@@ -18,5 +18,6 @@ nav_order: 6
 ### <a href='https://www.ufro.cl/'> Universidad de La Frontera
 * GIC305 Data Analysis.
 
-## ING-200 Optimization {#optimization}
+## ING-200 Optimization
+{#optimization}
 
