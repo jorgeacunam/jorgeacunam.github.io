@@ -9,11 +9,11 @@ nav_order: 6
 
 * [Universidad Adolfo Ibáñez](#UAI)
   * [ING200 Optimization.](#optimization)
-  * [ING480 Process and Service Design.](#process)
+  * [ING480 Process and Service Design.](#process)</p>
 
 * [University of South Florida](#USF)
   * [ENG3443 Probability and Statistics.](#prob)
-  * [EGN4450 Introduction to Linear Systems.](#linear)
+  * [EGN4450 Introduction to Linear Systems.](#linear)</p>
   
 * [Universidad de La Frontera](#UFRO)
   * [GIC305 Data Analysis.](#data)
