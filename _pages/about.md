@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://ingenieria.uai.cl/'>Faculty of Engineering and Sciences - UAI 
+subtitle: <a href='https://ingenieria.uai.cl/'>Faculty of Engineering and Sciences - UAI</a> 
 
 profile:
   align: right
