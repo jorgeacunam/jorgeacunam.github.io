@@ -2,11 +2,18 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+### Universidad Adolfo Ibáñez
+* ING200 Optimization.
+* ING480 Process and Service Design.
 
-Organize your courses by years, topics, or universities, however you like!
+### University of South Florida
+* ENG3443 Probability and Statistics.
+* EGN4450 Introduction to Linear Systems.
+
+### Universidad de La Frontera
+* GIC305 Data Analysis.
