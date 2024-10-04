@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2015-20-10
+date: 2015-10-20
 place: Antofagasta, Chile
 inline: true
 ---
