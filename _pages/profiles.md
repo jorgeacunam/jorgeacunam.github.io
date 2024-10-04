@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: Team
-description: Members of the Health Systems Engineering Laboratory (HSE Lab).
+description: Members of the Health Systems Engineering Laboratory (HSE Lab).Thank you for your patience! This page is currently under development and will be available soon. Please check back later for updates.
 nav: true
 nav_order: 7
 
