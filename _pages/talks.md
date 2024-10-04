@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /talks/
+permalink: /talk/
 title: Talks
-description: #I am open to talk opportunities if you are interested in my works.
+description: 
 nav: true
 nav_order: 3
 ---
@@ -10,7 +10,6 @@ nav_order: 3
 
 <!-- pages/talks.md -->
 <div class="talks">
-{% if site.talks != blank -%} 
 <div class="table-responsive">
     <table class="table table-sm table-borderless">
     {%- assign talks = site.talks | reverse -%} 
@@ -32,8 +31,4 @@ nav_order: 3
     </tr>
     {%- endfor %} 
     </table>
-</div>
-{%- else -%} 
-<p>No talks so far...</p>
-{%- endif %} 
 </div>
