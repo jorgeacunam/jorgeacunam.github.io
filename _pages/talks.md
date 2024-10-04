@@ -7,6 +7,16 @@ nav: true
 nav_order: 3
 ---
 
+<!-- Add this CSS block to your CSS file or inside a <style> tag -->
+<style>
+    .talks-title {
+        -webkit-user-select: none; /* Safari */
+        -moz-user-select: none;    /* Firefox */
+        -ms-user-select: none;     /* Internet Explorer/Edge */
+        user-select: none;         /* Non-prefixed version, currently supported by Chrome and Opera */
+        /* Keep the existing color, assuming it's defined somewhere else or inherited */
+    }
+</style>
 
 <!-- pages/talks.md -->
 <div class="talks">
@@ -26,9 +36,10 @@ nav_order: 3
         <td>
         {% if item.place -%} 
             <span class="talks-place">{{ item.place }}</span>
-        {%- endif %}
+        {%- endif %} 
         </td>
     </tr>
     {%- endfor %} 
     </table>
+</div>
 </div>
