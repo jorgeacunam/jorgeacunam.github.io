@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2019-20-10
+date: 2019-10-20
 place: Seattle, USA
 inline: true
 ---
