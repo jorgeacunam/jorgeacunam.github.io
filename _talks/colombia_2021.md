@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2021-07-20
+date: 2021-09-20
 place: Barranquilla, Colombia
 inline: true
 ---
