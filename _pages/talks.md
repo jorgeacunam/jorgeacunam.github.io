@@ -21,7 +21,7 @@ nav_order: 3
         {% if item.inline -%} 
             {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
         {%- else -%} 
-            <a class="talks-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            <a class="talks-title" href="{{ item.url | relative_url }}" style="background-color: transparent; text-decoration: none;">{{ item.title }}</a>
         {%- endif %} 
         </td>
         <td>
