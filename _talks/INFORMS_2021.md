@@ -5,4 +5,4 @@ place: Anaheim, USA
 inline: true
 ---
 
-INFORMS Annual Meeting: `”Prediction Of Inpatient Disaggregate Length Of Stay For Heterogeneous Demand Using Machine Learning Algorithms And Survival Analysis`.
+INFORMS Annual Meeting: `Prediction Of Inpatient Disaggregate Length Of Stay For Heterogeneous Demand Using Machine Learning Algorithms And Survival Analysis`.
