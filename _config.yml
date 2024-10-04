@@ -192,6 +192,11 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
+  talks:
+    defaults:
+      layout: post
+    output: true
+    permalink: /talks/:path/    
   projects:
     output: true
     permalink: /:collection/:title/
