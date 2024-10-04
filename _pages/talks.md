@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /talk/
+permalink: /talks/
 title: Talks
 description: #I am open to talk opportunities if you are interested in my works.
 nav: true
