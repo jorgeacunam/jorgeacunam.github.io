@@ -34,6 +34,12 @@ profiles:
     more_info: >
 
   - align: right
+    image: 
+    content: about_agostino.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+
+  - align: right
     image: Daniela Cantariño.jpg
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
