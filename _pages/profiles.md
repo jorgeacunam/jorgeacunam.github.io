@@ -29,7 +29,7 @@ profiles:
 
   - align: right
     image: TOMÁS.jpeg
-    content: about_einstein.md
+    content: about_tomas.md
     image_circular: false # crops the image to make it circular
     more_info: >
 
