@@ -1,0 +1,1 @@
+Josefa Bravo Parra is a fourth-year Industrial Civil Engineering student at the Universidad Adolfo Ibáñez in Chile. Her academic interests are focused on Machine Learning and Deep Learning models. Currently, under the supervision of Prof. Jorge Acuña, PhD, she is involved in developing predictive models to estimate surgery duration for cancer patients.
