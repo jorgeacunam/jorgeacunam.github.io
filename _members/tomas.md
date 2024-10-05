@@ -10,7 +10,7 @@ external: true
 title: Leslie S. Cope, PhD
 description: Profile of Dr. Thomas Pisanic, Epidiagnostics Group Leader.
 lastname: Cope
-publications: 'author^=*Cope'
+publications: 
 
 teaser: >
     Leslie Cope, Ph.D., is a biostatistician and bioinformatician with expertise in the design and analysis of high-throughput genomic data.He co-directs the Johns Hopkins Kimmel Cancer Center's Experimental and Computational Genomics Core and is a member of the Epigenetics Genome Characterization program within the NIH-funded project, The Cancer Genome Atlas (TCGA), where he leads DNA methylation data analysis. His research focuses on methods for identifying and validating biomarkers, including tools for integrating multiple sources of data.
@@ -20,7 +20,7 @@ profile:
     name: Leslie M. Cope, PhD
     position: Associate Professor of Oncology - Biostatistics and Bioinformatics
     align: right
-    image: cope-pic.jpg
+    image: TOMÁS.jpeg
     email: lcope1@jhmi.edu
     website: https://www.hopkinsmedicine.org/profiles/details/leslie-cope    
     twitter: 
