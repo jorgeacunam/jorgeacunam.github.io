@@ -197,10 +197,7 @@ collections:
       layout: post
     output: true
     permalink: /talks/:path/  
-  members:
-    output: true
-    permalink: /members/:path
-  projects:
+   projects:
     output: true
     permalink: /:collection/:title/
 
