@@ -196,7 +196,10 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /talks/:path/    
+    permalink: /talks/:path/  
+  members:
+    output: true
+    permalink: /members/:path
   projects:
     output: true
     permalink: /:collection/:title/
