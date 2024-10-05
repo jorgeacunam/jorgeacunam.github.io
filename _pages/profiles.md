@@ -23,7 +23,7 @@ profiles:
 
   - align: right
     image: JOSEFA.jpeg
-    content: about_einstein.md
+    content: about_josefa.md
     image_circular: false # crops the image to make it circular
     more_info: >
 
