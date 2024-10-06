@@ -4,6 +4,7 @@ inline: false
 group: Students
 group_rank: 1
 group_order: 2
+external: true
 
 title: Enzo
 description: Profile of Vicky Cui, Doctoral Researcher in the Wang and Epidiagnsotics Group.
@@ -20,6 +21,7 @@ profile:
     image: SOFIA.jpg
     role: Doctoral Researcher
     email: wcui7@jhmi.edu
+    website:
     github: 
     orcid: 
     address: >
