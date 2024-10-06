@@ -200,6 +200,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  members:
+    output: true
+    permalink: /members/:path
 
 announcements:
   enabled: true
