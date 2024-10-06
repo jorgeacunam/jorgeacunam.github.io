@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /team.html
-title: team
-page-title: team
-description: We have a truly interdisciplinary team that allows us to carry out studies ranging from exploring basic epigenetic mechanisms of carcinogenesis to the development of next-generation microfluidic epigenetic diagnostic platforms. Here are the members and faculty affiliated with the Epidiagnostics Group at JHU. 
+title: Team
+page-title: Team
+description: Members of the Health Systems Engineering Laboratory (HSE Lab).Thank you for your patience! This page is currently under development and will be available soon. Please check back later for updates.
 nav: true
-nav_order: 2
-nav_rank: 2
+nav_order: 
+nav_rank: 
 ---
 
 {% assign groups = site.members | sort: "group_rank" | map: "group" | uniq %}
