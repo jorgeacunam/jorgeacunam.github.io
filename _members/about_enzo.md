@@ -1,10 +1,9 @@
 ---
 layout: about
 inline: false
-group: Graduate Students
-group_rank: 4
-team_collaborator: true
-
+group: Students
+group_rank: 1
+group_order: 1
 
 title: Enzo
 description: Profile of Vicky Cui, Doctoral Researcher in the Wang and Epidiagnsotics Group.
