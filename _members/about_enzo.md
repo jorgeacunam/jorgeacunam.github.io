@@ -14,7 +14,7 @@ teaser: >
     I am a PhD student from the Department of Biomedical Engineering at Johns Hopkins University.
 
 profile:
-    name: Vicky Cui
+    name: Enzo Escuti
     position: Doctoral Student in Biomedical Engineering (PI&#58; Tza-Huei Wang)    
     align: right
     image: ENZO3.jpeg
