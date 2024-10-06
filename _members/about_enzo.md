@@ -15,7 +15,7 @@ teaser: >
 
 profile:
     name: Enzo Escuti 
-    position: Master's Student in Industrial Engineering and Operations Research    
+    position: Master Student in Industrial Engineering and Operations Research    
     align: right
     image: ENZO.jpeg
     role: Master Student
