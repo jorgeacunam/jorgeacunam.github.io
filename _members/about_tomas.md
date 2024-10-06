@@ -18,7 +18,7 @@ profile:
     name: Tomás Garnham
     position: Research student
     align: right
-    image: tomas.jpg
+    image: tomas.jpeg
     role: Undergraduate Researcher
     email: tgarnham@alumnos.uai.cl
     website:
