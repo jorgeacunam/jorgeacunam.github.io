@@ -23,7 +23,6 @@ nav_rank: 2
             </div>
             <div class="team col-sm-8 col-md-9">
                 <div class="card-body">
-                    {% if member.inline == false %}{% if member.external == true %} <a >{% else %}<a >{% endif %}{% endif %}
                     <h5 class="card-title">{{ member.profile.name }}</h5>
                     {% if member.profile.position %}
                     {% if member.profile.team-position %}<h6 class="card-subtitle mb-2 text-muted">{{ member.profile.team-position }}</h6>
