@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: false
-group: Student
+group: Students
 group_rank: 1
 group_order: 3
 external: true
