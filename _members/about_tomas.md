@@ -18,7 +18,7 @@ profile:
     name: Vicky Cui
     position: Doctoral Student in Biomedical Engineering (PI&#58; Tza-Huei Wang)    
     align: right
-    image: ENZO.jpeg
+    image: ENZO2.jpeg
     role: Doctoral Researcher
     email: wcui7@jhmi.edu
     github: 
