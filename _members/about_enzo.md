@@ -5,7 +5,7 @@ group: Students
 group_rank: 1
 group_order: 1
 
-title: Enzo
+title: Enzo Escuti (Master student)
 description: Profile of Vicky Cui, Doctoral Researcher in the Wang and Epidiagnsotics Group.
 lastname: Escuti
 publications: 
