@@ -3,7 +3,7 @@ layout: about
 inline: false
 group: Students
 group_rank: 1
-group_order: 1
+group_order: 2
 
 title: Enzo Escuti (Master student)
 description: 
