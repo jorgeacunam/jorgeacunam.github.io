@@ -31,7 +31,7 @@ profile:
         Baltimore , MD 21218
 ---
 
-I am a PhD student from the Department of Biomedical Engineering at Johns Hopkins University.
+Tomás Garnham is a fourth-year Civil Industrial Engineering student at Universidad Adolfo Ibáñez in Chile. His research interests focus on optimizing healthcare systems, specifically scheduling and routing for home healthcare services. Under the guidance of Dr. Jorge Acuña, he is currently dedicated to improving logistical processes in home healthcare in order to enhance patient care outcomes and optimize resource utilization.
 
 ## Short Bio
 
