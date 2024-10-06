@@ -18,7 +18,7 @@ teaser: >
 
 profile:
     name: Sofía Zúñiga (Master student)
-    position: Master's student in engineering sciences
+    position: Master's Student in Engineering Sciences
     align: right
     image: 
     email: sozuniga@alumnos.uai.cl
