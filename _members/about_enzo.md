@@ -6,31 +6,28 @@ group_rank: 1
 group_order: 1
 
 title: Enzo Escuti (Master student)
-description: Profile of Vicky Cui, Doctoral Researcher in the Wang and Epidiagnsotics Group.
+description: 
 lastname: Escuti
 publications: 
 
 teaser: >
-    I am a PhD student from the Department of Biomedical Engineering at Johns Hopkins University.
+   
 
 profile:
-    name: Enzo Escuti (Ph.D.)
-    position: Doctoral Student in Biomedical Engineering (PI&#58; Tza-Huei Wang)    
+    name: Enzo Escuti 
+    position: Master Student in Industrial Engineering and Operations Research    
     align: right
     image: ENZO.jpeg
-    role: Doctoral Researcher
-    email: wcui7@jhmi.edu
+    role: Master Student
+    email: eescuti@alumnos.uai.cl
     github: 
     orcid: 
     address: >
-        Department of Biomedical Engineering<br />
-        Clark 122<br />
-        3400 N Charles St<br />
-        Baltimore , MD 21218
+        Faculty of Engineering and Sciences<br />
+        Av. Padre Hurtado 750<br />        
+        Viña del Mar, Chile
 ---
 
-I am a PhD student from the Department of Biomedical Engineering at Johns Hopkins University.
 
 ## Short Bio
 
-I received my B.S. degree in Bioengineering from University of California, Berkeley (2021). I started pursuing my doctoral degree at Johns Hopkins in 2021.
