@@ -16,7 +16,7 @@ teaser: >
 
 profile:
     name: Tomás Garnham
-    position: Research student
+    position: Undergraduate Directed Research Student
     align: right
     image: tomas.jpeg
     role: Undergraduate Researcher
