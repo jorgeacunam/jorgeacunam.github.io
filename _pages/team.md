@@ -30,7 +30,6 @@ nav_rank: 2
                     <p class="card-text">
                         {{ member.teaser }}
                     </p>
-                    {% if member.inline == false %}</a>{% endif %}
                     {% if member.profile.email %}
                         <a href="mailto:{{ member.profile.email }}" class="card-link"><i class="fas fa-envelope"></i></a>
                     {% endif %}
