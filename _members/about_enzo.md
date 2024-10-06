@@ -6,9 +6,9 @@ group_rank: 4
 team_collaborator: true
 
 
-title: Vicky Cui
+title: Enzo
 description: Profile of Vicky Cui, Doctoral Researcher in the Wang and Epidiagnsotics Group.
-lastname: Zhao
+lastname: Escuti
 publications: 
 
 teaser: >
