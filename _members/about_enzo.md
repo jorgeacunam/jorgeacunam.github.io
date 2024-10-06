@@ -17,7 +17,7 @@ profile:
     name: Enzo Escuti (Ph.D.)
     position: Doctoral Student in Biomedical Engineering (PI&#58; Tza-Huei Wang)    
     align: right
-    image: ENZO3.jpeg
+    image: ENZO.jpeg
     role: Doctoral Researcher
     email: wcui7@jhmi.edu
     github: 
