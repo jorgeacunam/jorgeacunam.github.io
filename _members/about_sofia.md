@@ -17,7 +17,7 @@ teaser: >
 
 
 profile:
-    name: Sofía Zúñiga (Master student)
+    name: Sofía Zúñiga
     position: Master's Student in Engineering Sciences
     align: right
     image: SOFIA.jpg
