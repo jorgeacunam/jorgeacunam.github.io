@@ -23,7 +23,7 @@ profile:
     name: Agostino Ansaldo
     position: Undergraduate Directed Research Student
     align: right
-    image: AGOSTINO_2.jpg
+    image: AGOSTINO_2.jpeg
     email: agansaldo@alumnos.uai.cl
     phone: 
     website: 
