@@ -14,7 +14,7 @@ publications:
 
 
 teaser: >
-
+    Sofía Zúñiga Ayala is a Master's student in Industrial Engineering at Universidad Adolfo Ibáñez. Her research focuses on resource management and optimization, with a specific interest in public health systems in Chile. She is currently working under the supervision of Jorge Acuña, PhD. Her investigations include multi-objective and robust optimization applied to healthcare resource allocation and hospital waitlist management, aiming to improve the efficiency and resilience of public healthcare services.
 
 profile:
     name: Sofía Zúñiga
