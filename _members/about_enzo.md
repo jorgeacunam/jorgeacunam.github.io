@@ -11,7 +11,7 @@ lastname: Escuti
 publications: 
 
 teaser: >
-   
+   Enzo Escuti is a graduate student in the Master's program in Industrial Engineering and Operations Research at Universidad Adolfo Ibáñez, where he is also pursuing his degree in Civil Industrial Engineering. Supervised by Jorge Acuña, his thesis focuses on the study and prediction of time series of non-GES surgical waitlists in Chile. His research interests are centered on using predictive models to provide information to hospitals and improve decision-making.
 
 profile:
     name: Enzo Escuti 
