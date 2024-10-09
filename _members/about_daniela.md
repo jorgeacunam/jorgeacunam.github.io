@@ -20,7 +20,7 @@ profile:
     name: Daniela Cantariño
     position: Ph.D. Student in Industrial Engineering
     align: right
-    image: Daniela Cantariño.jpg
+    image: Daniela.jpg
     email: danieladuran@usf.edu
     phone: 
     website: 
