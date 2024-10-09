@@ -13,7 +13,7 @@ nav_rank:
 {% for group in groups %}
 ## {{ group }}
 
- {% assign members = site.members | sort: "group_order" | where: "group", group %}
+{% assign members = site.members | sort: "group_order" | where: "group", group %}
     {% for member in members %}
 <p>
     <div class="card {% if member.inline == false %}hoverable{% endif %}">
@@ -57,4 +57,5 @@ nav_rank:
     </div>
 </p>
     {% endfor %}
+<hr> <!-- Add this line to create space between groups -->
 {% endfor %}
