@@ -3,7 +3,7 @@ layout: about
 inline: false
 group: Students
 group_rank: 1
-group_order: 3
+group_order: 4
 external: true
 
 
