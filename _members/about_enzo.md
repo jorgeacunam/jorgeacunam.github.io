@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: false
-group: Undergraduate Students
+group: Graduate Students
 group_rank: 1
 group_order: 2
 
