@@ -24,10 +24,9 @@ profile:
     email: danieladuran@usf.edu
     phone: 
     website: 
-    linkedin_username: danielacantarino
     scholar_userid: khU060YAAAAJ
     twitter: 
-    orcid: 0009-0000-3765-7870
+    orcid: 0009-0000-8765-7870
     address: >
         Industrial and Management Systems Engineering<br />
         4202 E Fowler Ave.<br />        
