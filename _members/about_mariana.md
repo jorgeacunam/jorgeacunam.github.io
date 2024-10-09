@@ -24,8 +24,7 @@ profile:
     email: arrizjorquiera@usf.edu
     phone: 
     website: 
-    linkedin_username: mariana-arriz-1b9b0414a
-    scholar_userid: Ab3YAAAAJ
+    scholar_userid: nu-Ab3YAAAAJ
     twitter: 
     orcid: 0009-0005-8753-4439
     address: >
