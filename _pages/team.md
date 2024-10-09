@@ -16,7 +16,7 @@ nav_rank:
 {% assign members = site.members | sort: "group_order" | where: "group", group %}
     {% for member in members %}
 <p>
-    <div class="card {% if member.inline == false %}hoverable{% endif %}">
+    <div class="card {% if member.inline == false %}hoverable{% endif %}" style="position: relative; min-height: 250px;">
         <div class="row no-gutters">
             <div class="col-sm-4 col-md-3">
                 <img src="{{ '/assets/img/team/' | append: member.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ member.profile.name }}" />
@@ -48,10 +48,11 @@ nav_rank:
                     {% if member.profile.website %}
                         <a href="{{ member.profile.website }}" class="card-link" target="_blank"><i class="fas fa-globe"></i></a>
                     {% endif %}
-                    <p class="card-text">
-                        <small class="test-muted"><i class="fas fa-thumbtack"></i> {{ member.profile.address | replace: '<br />', ', ' }}</small>
-                    </p>
                 </div>
+                <!-- Address section at the bottom -->
+                <p class="card-text" style="position: absolute; bottom: 10px; left: 15px; right: 15px;">
+                    <small class="text-muted"><i class="fas fa-thumbtack"></i> {{ member.profile.address | replace: '<br />', ', ' }}</small>
+                </p>
             </div>
         </div>
     </div>
