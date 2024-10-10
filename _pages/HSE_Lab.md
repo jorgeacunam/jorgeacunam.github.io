@@ -4,7 +4,7 @@ permalink: /HSE/
 title: HSE Lab
 description: 
 nav: true
-nav_order: 2
+nav_order: 7
 ---
 
 
