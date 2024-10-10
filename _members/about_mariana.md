@@ -14,7 +14,7 @@ publications:
 
 
 teaser: >
-    
+    Mariana Arriz Jorquiera is a Ph.D. student in Industrial Engineering at the University of South Florida. She received her B.S. in Industrial Engineering from the University of Engineering and Technology in Lima, Peru. Her research combines deep learning, multi-objective optimization, and stochastic programming to address complex healthcare challenges, with a focus on cancer data and imaging. She aims to improve patient outcomes by generating contributions in cancer diagnosis and treatment planning, and is currently supervised by Dr. Jose L. Zayas-Castro.
 
 profile:
     name: Mariana Arriz-Jorquiera
