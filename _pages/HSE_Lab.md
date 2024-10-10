@@ -11,10 +11,10 @@ nav_order: 2
 
 ---
 
-### Mission </a>
+### Mission 
 
 ---
-#### Vision</a>
+#### Vision
 
 
 ---
