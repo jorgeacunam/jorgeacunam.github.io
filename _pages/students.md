@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /team.html
-title: Team
+title: Students
 page-title: Team
 description: Members of the Health Systems Engineering Laboratory (HSE Lab).Thank you for your patience! This page is currently under development and will be available soon. Please check back later for updates.
 nav: true
