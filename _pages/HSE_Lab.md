@@ -20,4 +20,5 @@ To foster and strengthen collaboration between the health sector and engineering
 ---
 #### Vision
 To be a leading laboratory at national and international levels in health systems engineering research, promoting the continuous improvement of partner organizations in the public and private health sectors. In addition, to train professionals of excellence, prepared to face and solve the emerging challenges in the health field.
+
 ---
