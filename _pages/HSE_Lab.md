@@ -2,7 +2,7 @@
 layout: page
 permalink: /HSE/
 title: HSE Lab
-description: <a href='https://jorgeacunam.github.io/team.html'> Check the lab students by clicking HERE.</a>.
+description: <a href='https://jorgeacunam.github.io/team.html'> Check the lab students by clicking HERE.</a>
 nav: true
 nav_order: 7
 ---
