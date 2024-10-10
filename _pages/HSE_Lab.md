@@ -3,11 +3,10 @@ layout: page
 permalink: /HSE/
 title: HSE Lab
 description: <a href='https://jorgeacunam.github.io/team.html'> Check the lab students by clicking HERE.</a>
+img: /assets/img/Banner3.jpg
 nav: true
 nav_order: 7
 ---
-
-<img src="{{ '/assets/img/' | append: Banner3.jpg | relative_url }}" alt="HSE Lab Image" style="width:100%; max-width:600px; margin-top:20px;" />
 
 The Health Systems Engineering Lab (HSE Lab) was created to bridge the gap between academic engineering research and the national healthcare practice. In recent years, healthcare systems have encountered growing demand, greater service complexity, resource limitations, and access challenges both nationally and internationally. Simultaneously, there has been a data revolution in healthcare, necessitating robust ethical and professional frameworks to safeguard patient privacy. By combining engineering expertise and systems thinking with healthcare professionals' knowledge, the HSE Lab aims to develop solutions that enhance healthcare efficiency and effectiveness. The lab utilizes operations research tools, including stochastic programming, multi-objective optimization, and game theory, to make decisions in complex systems. Additionally, it employs learning algorithms to forecast, advise, and personalize healthcare and hospital management.
 
