@@ -14,7 +14,7 @@ publications:
 
 
 teaser: >
-
+    Bárbara Güichaquelén Leviñanco is a Master's student in Industrial Engineering at the Adolfo Ibáñez University. His research focuses on the estimation of surgical times in the traumatology and orthopaedic area of a hospital in Chile. She currently works under the supervision of Dr. Jorge Acuña. The main objective is to obtain a better estimate of the time of surgeries to facilitate planning, better use of resources and reduce postponements in operating rooms.
 
 profile:
     name: Bárbara Guichaquelen
