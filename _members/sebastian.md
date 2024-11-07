@@ -14,7 +14,7 @@ publications:
 
 
 teaser: >
-    Sebastián Moreno received his Master of Science and PhD in Computer Science from Purdue University in 2011 and 2014, respectively. Since 2015, Sebastián has been working at Universidad Adolfo Ibáñez in the faculty of engineering and Science (FES), where he is an associated professor from 2022. Sebastián has been Associate director of the postgraduate academic programs from the FES (2021-2024), head of the Master of Science in Data Science (2022-2024), Master of Science in Engineering (2021-2022), and Computer Engineering (2020-2021). Sebastián also teaches multiple classes from undergraduate courses to professional, master, and doctorate courses. His research interests include machine learning, specifically deep learning (neural networks). Currently, he focuses on machine learning models for transportation data, applying deep learning models on remote sensing (recurrent, convolutional neural networks, and transformers), and the ability of deep learning models to transfer learned patterns over different domains. Thanks to his work, Sebastián has graduated more than 15 master students, published more than 40 papers (between conferences and JCR journals), and worked on more than 18 projects. He is also an active program committee member of the most important conferences in the machine learning area including NeurIPS, KDD, WWW, ICDM, and others. 
+    Sebastián Moreno received his PhD in Computer Science from Purdue University in 2014. Then, he moved to Universidad Adolfo Ibáñez, where he is an Associate professor. His research field is data science. Currently, he is developing and applying machine and deep learning models on transportation, psychological, and remote sensing data. He is also studying the theoretical capacity of deep learning models to transfer learned patterns over different domains. Sebastián has graduated more than 15 master's students, published more than 40 papers, worked on more than 18 projects, and been on the program committee of more than 50 conferences in the machine learning area, including NeurIPS, WWW, ICDM, AAAI, and others.
 
 
 profile:
@@ -23,11 +23,11 @@ profile:
     align: right
     image: 
     email: sebastian.moreno@uai.cl
-    phone: 
+    phone: +56322503889
     website: https://ingenieria.uai.cl/profesor/sebastian-moreno/
     scholar_userid: khU060YAAAAJ
     twitter: 
-    orcid: 0009-0000-8765-7870
+    orcid: 0000-0001-5422-0656
     address: >
         Faculty of Engineering and Sciences - UAI<br />
         Av. Padre Hurtado 750.<br />        
