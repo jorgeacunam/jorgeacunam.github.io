@@ -21,7 +21,7 @@ profile:
     name: Sebastian Moreno, Ph.D.
     position: Associate Professor - Data Science UAI
     align: right
-    image: 
+    image: sebastian.jpg
     email: sebastian.moreno@uai.cl
     phone: +56322503889
     website: https://ingenieria.uai.cl/profesor/sebastian-moreno/
