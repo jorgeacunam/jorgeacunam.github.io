@@ -14,25 +14,27 @@ publications:
 
 
 teaser: >
-    Daniela Cantarino is a PhD student in the Industrial and Management Systems Engineering department at the University of South Florida, where she also received her BS in 2021. Her research interests include stochastic programming and optimization for large-scale modeling, with a focus on healthcare applications. Currently, she is optimizing kidney transplant allocation systems to improve efficiency and equity in national policies. Her primary advisor is Dr. Jose L. Zayas-Castro, with co-advisor Dr. Jorge Acuna.
+    Sebastián Moreno received his Master of Science and PhD in Computer Science from Purdue University in 2011 and 2014, respectively. Since 2015, Sebastián has been working at Universidad Adolfo Ibáñez in the faculty of engineering and Science (FES), where he is an associated professor from 2022. Sebastián has been Associate director of the postgraduate academic programs from the FES (2021-2024), head of the Master of Science in Data Science (2022-2024), Master of Science in Engineering (2021-2022), and Computer Engineering (2020-2021). Sebastián also teaches multiple classes from undergraduate courses to professional, master, and doctorate courses.
+
+His research interests include machine learning, specifically deep learning (neural networks). Currently, he focuses on machine learning models for transportation data, applying deep learning models on remote sensing (recurrent, convolutional neural networks, and transformers), and the ability of deep learning models to transfer learned patterns over different domains. Thanks to his work, Sebastián has graduated more than 15 master students, published more than 40 papers (between conferences and JCR journals), and worked on more than 18 projects. He is also an active program committee member of the most important conferences in the machine learning area including NeurIPS, KDD, WWW, ICDM, and others. 
+
 
 profile:
-    name: Sebastian Moreno
-    position: Ph.D. Student in Industrial Engineering
+    name: Sebastian Moreno, Ph.D.
+    position: Associate Professor - Data Science UAI
     align: right
-    image: Daniela2.jpg
-    email: danieladuran@usf.edu
+    image: 
+    email: sebastian.moreno@uai.cl
     phone: 
-    website: 
+    website: https://ingenieria.uai.cl/profesor/sebastian-moreno/
     scholar_userid: khU060YAAAAJ
     twitter: 
     orcid: 0009-0000-8765-7870
     address: >
-        Industrial and Management Systems Engineering<br />
-        4202 E Fowler Ave.<br />        
-        Tampa, Florida, USA
+        Faculty of Engineering and Sciences - UAI<br />
+        Av. Padre Hurtado 750.<br />        
+        Viña del Mar, Chile
 ---
-
 
 
 ## Short Bio
