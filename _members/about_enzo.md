@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Graduate Students
-group_rank: 1
+group_rank: 2
 group_order: 2
 
 title: Enzo Escuti (Master student)
