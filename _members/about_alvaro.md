@@ -19,7 +19,7 @@ profile:
     name: Álvaro Palma 
     position: Master Student in Engineering Sciences
     align: right
-    image: 
+    image: ALVARO.JPG
     email: alvpalma@alumnos.uai.cl
     phone: 
     website: 
