@@ -20,7 +20,7 @@ profile:
     name: José L. Zayas-Castro, Ph.D.
     position: Professor - IMSE
     align: right
-    image: sebastian.jpg
+    image: Zayas.jpg
     email: josezaya@usf.edu
     phone: +18139745589  
     website: https://www.usf.edu/engineering/imse/people/index.aspx
