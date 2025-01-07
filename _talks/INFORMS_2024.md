@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-10-20
-  place: Seattle, USA
+place: Seattle, USA
 inline: true
 ---
 
