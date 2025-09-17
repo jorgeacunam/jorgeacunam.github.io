@@ -14,7 +14,7 @@ publications:
 
 
 teaser: >
-Stefano Novellani is an Assistant Professor of Operations Research at the University of Pisa. He holds a Ph.D. in Automatic Control Systems and Operations Research from the University of Bologna and a degree in Industrial Engineering from the University of Modena and Reggio Emilia. His research focuses on combinatorial optimization, exact and approximate algorithms (including matheuristics and metaheuristics), stochastic programming, and their application to real-world problems such as vehicle routing, last-mile delivery, drone optimization, shared mobility, and sustainable logistics.
+    Stefano Novellani is an Assistant Professor of Operations Research at the University of Pisa. He holds a Ph.D. in Automatic Control Systems and Operations Research from the University of Bologna and a degree in Industrial Engineering from the University of Modena and Reggio Emilia. His research focuses on combinatorial optimization, exact and approximate algorithms (including matheuristics and metaheuristics), stochastic programming, and their application to real-world problems such as vehicle routing, last-mile delivery, drone optimization, shared mobility, and sustainable logistics.
 
 profile:
     name: Stefano Novellani, Ph.D.
