@@ -2,8 +2,8 @@
 layout: about
 inline: false
 group: Faculty
-group_rank: 4
-group_order: 2
+group_rank: 1
+group_order: 4
 external: true
 
 
