@@ -2,32 +2,32 @@
 layout: about
 inline: false
 group: Faculty
-group_rank: 1
+group_rank: 3
 group_order: 2
 external: true
 
 
-title: Sebastian Moreno, Ph.D.
-description: Associate Professor - Data Science 
-lastname: Moreno
+title: Tamara Fernández, Ph.D.
+description: Assistant Professor - Data Science 
+lastname: Fernández
 publications: 
 
 
 teaser: >
-    Sebastián Moreno received his PhD in Computer Science from Purdue University in 2014. Then, he moved to Universidad Adolfo Ibáñez, where he is an Associate professor. His research field is data science. Currently, he is developing and applying machine and deep learning models on transportation, psychological, and remote sensing data. He is also studying the theoretical capacity of deep learning models to transfer learned patterns over different domains. Sebastián has graduated more than 15 master's students, published more than 40 papers, worked on more than 18 projects, and been on the program committee of more than 50 conferences in the machine learning area, including NeurIPS, WWW, ICDM, AAAI, and others.
+  Tamara Fernández received her DPhil in Statistics from the University of Oxford in 2018. After that, she joined the Gatsby Unit at University College London as a Biometrika Postdoctoral Fellow. Since October 2020, she has been an Assistant Professor at the Faculty of Engineering and Sciences of Universidad Adolfo Ibáñez in Viña del Mar, Chile. Her research focuses on the intersection of statistics and machine learning, with an emphasis on developing statistical methodology and kernel methods. She is interested in both the theoretical foundations and applications of these methods in data science.
 
 
 profile:
-    name: Sebastian Moreno, Ph.D.
-    position: Associate Professor - Data Science UAI
+    name: Tamara Fernández, Ph.D.
+    position: Assistant Professor - Data Science UAI
     align: right
-    image: sebastian.jpg
-    email: sebastian.moreno@uai.cl
-    phone: +56322503889
-    website: https://ingenieria.uai.cl/profesor/sebastian-moreno/
-    scholar_userid: khU060YAAAAJ
+    image: tamara.jpg
+    email: tamara.fernandez@uai.cl
+    phone: +56322503741
+    website: https://www.uai.cl/profesores/ingenieria-y-ciencias/tamara-fernandez
+    scholar_userid: 67k5XqMAAAAJ
     twitter: 
-    orcid: 0000-0001-5422-0656
+    orcid: 0000-0002-8493-5529
     address: >
         Faculty of Engineering and Sciences - UAI<br />
         Av. Padre Hurtado 750.<br />        
