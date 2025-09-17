@@ -20,7 +20,7 @@ profile:
     name: Stefano Novellani, Ph.D.
     position: Assistant Professor - Dipartimento di Informatica Università di Pisa
     align: right
-    image: stefano.jpg
+    image: stefano.png
     email: stefano.novellani@unipi.it
     phone: +56322503741
     website: https://www.unipi.it/en/about-us/organisation/people/stefano-novellani-210495-en/
