@@ -18,7 +18,7 @@ teaser: >
 
 profile:
     name: Stefano Novellani, Ph.D.
-    position: Assistant Professor - Dipartimento di Informatica Università di Pisa
+    position: Assistant Professor - Dipartimento di Informatica - Università di Pisa
     align: right
     image: stefano.png
     email: stefano.novellani@unipi.it
@@ -29,7 +29,7 @@ profile:
     orcid: 0000-0001-8600-8000
     address: >
         Università di Pisa<br />
-        LARGO BRUNO PONTECORVO, 3, 56127.<br />        
+        Largo Bruno Pontecorvo, 3, 56127.<br />        
         Pisa, Italy
 ---
 
