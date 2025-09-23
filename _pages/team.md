@@ -6,9 +6,14 @@ page-title: HSE Lab
 description: Members of the Health Systems Engineering Laboratory (HSE Lab). Thank you for your patience! This page is currently under development and will be available soon. Please check back later for updates.
 nav: true
 nav_order: 8
-nav_rank: 
+nav_rank:
 ---
 
+{% if page.page-title %}
+<div class="site-title" style="font-weight:bold; font-size:1.25em;">
+  {{ page.page-title }}
+</div>
+{% endif %}
 {% assign groups = site.members | sort: "group_rank" | map: "group" | uniq %}
 {% for group in groups %}
 ## {{ group }}
