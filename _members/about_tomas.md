@@ -3,7 +3,7 @@ layout: about
 inline: false
 group: Graduate Students
 group_rank: 2
-group_order: 5
+group_order: 3
 external: true
 
 title: Tomás Garnham
