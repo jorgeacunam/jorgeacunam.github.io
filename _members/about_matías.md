@@ -14,7 +14,7 @@ publications:
 
 
 teaser: >
-    Matías Palma is a fourth-year Civil Industrial Engineering student at Universidad Adolfo Ibáñez in Chile. His research focuses on public health logistics, particularly the Home Health Care Scheduling and Routing Problem. Under the direction of Prof. Jorge Acuña, he is currently optimizing the allocation and scheduling of home health services to improve efficiency and patient outcomes. The project is being carried out in collaboration with a CESFAM in Peñalolén, Santiago.
+    Matías Palma is a fourth-year Civil Industrial Engineering student at Universidad Adolfo Ibáñez in Chile. 
 
 
 
@@ -23,7 +23,7 @@ profile:
     name: Matías Palma
     position: Undergraduate Directed Research Student
     align: right
-    image: AGOSTINO_2.jpeg
+    image: 
     email: matipalma@alumnos.uai.cl
     phone: 
     website: 
