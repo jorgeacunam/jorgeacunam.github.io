@@ -1,22 +1,22 @@
 ---
 layout: about
 inline: false
-group: Undergraduate Students
-group_rank: 3
+group: Graduate Students
+group_rank: 2
 group_order: 5
 external: true
 
 title: Tomás Garnham
-description: Undergraduate Directed Research Student
+description: Master Student in Engineering Sciences
 lastname: Garnham
 publications: 
 
 teaser: >
-    Tomás Garnham is a fourth-year Civil Industrial Engineering student at Universidad Adolfo Ibáñez in Chile. His research interests focus on optimizing healthcare systems, specifically scheduling and routing for home healthcare services. Under the guidance of Dr. Jorge Acuña, he is currently dedicated to improving logistical processes in home healthcare in order to enhance patient care outcomes and optimize resource utilization.
+    Tomás Garnham is a Master's student in Industrial Engineering at Universidad Adolfo Ibáñez in Chile. His research interests focus on optimizing healthcare systems, specifically scheduling and routing for home healthcare services. Under the guidance of Dr. Jorge Acuña, he is currently dedicated to improving logistical processes in home healthcare to enhance patient care outcomes and optimize resource utilization.
 
 profile:
     name: Tomás Garnham
-    position: Undergraduate Directed Research Student
+    position: Master Student in Engineering Sciences
     align: right
     image: tomas.jpeg
     role: Undergraduate Researcher
