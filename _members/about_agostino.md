@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: false
-group: Master Student in Engineering Sciences
+group: Graduate Students
 group_rank: 2
 group_order: 3
 external: true
