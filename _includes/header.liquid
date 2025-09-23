@@ -3,10 +3,10 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       {% if page.permalink != '/' %}
+        {% assign is_team = (page.permalink == "/team.html") or (page.url == "/team.html") or
+                            (page.permalink == "/team/")    or (page.url == "/team/") %}
         <a class="navbar-brand title font-weight-lighter"
-           href="{% if page.page-title %}{{ page.permalink | relative_url }}{% else %}{{ site.baseurl }}/{% endif %}">
-          {% assign is_team = (page.permalink == "/team.html") or (page.url == "/team.html") or
-                              (page.permalink == "/team/")    or (page.url == "/team/") %}
+           href="{% if is_team and page.page-title %}{{ '/HSE/' | relative_url }}{% else %}{{ site.baseurl }}/{% endif %}">
           {% if is_team and page.page-title %}
             <span class="font-weight-bold">
               {{ page.page-title }}
