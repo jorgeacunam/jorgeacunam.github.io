@@ -9,11 +9,6 @@ nav_order: 8
 nav_rank:
 ---
 
-{% if page.page-title %}
-<div class="site-title" style="font-weight:bold; font-size:1.25em;">
-  {{ page.page-title }}
-</div>
-{% endif %}
 {% assign groups = site.members | sort: "group_rank" | map: "group" | uniq %}
 {% for group in groups %}
 ## {{ group }}
