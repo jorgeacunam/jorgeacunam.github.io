@@ -23,7 +23,7 @@ profile:
     name: Matías Palma
     position: Undergraduate Directed Research Student
     align: right
-    image: Matías.jpg
+    image: matias.jpg
     email: matipalma@alumnos.uai.cl
     phone: 
     website: 
