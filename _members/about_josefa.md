@@ -20,7 +20,7 @@ teaser: >
 
 profile:
     name: Josefa Bravo
-    position: Master of Science in Data Science
+    position: Master Student in Data Science
     align: right
     image: JOSEFA.jpeg
     email: josefbravo@alumnos.uai.cl
