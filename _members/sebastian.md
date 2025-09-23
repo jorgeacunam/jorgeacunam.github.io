@@ -7,7 +7,7 @@ group_order: 1
 external: true
 
 
-title: Sebastian Moreno, Ph.D.
+title: Sebastián Moreno, Ph.D.
 description: Associate Professor - Data Science 
 lastname: Moreno
 publications: 
@@ -18,7 +18,7 @@ teaser: >
 
 
 profile:
-    name: Sebastian Moreno, Ph.D.
+    name: Sebastián Moreno, Ph.D.
     position: Associate Professor - Data Science UAI
     align: right
     image: sebastian.jpg
