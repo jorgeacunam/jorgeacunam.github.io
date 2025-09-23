@@ -7,24 +7,24 @@ group_order: 1
 external: true
 
 
-title: Agostino Ansaldo
+title: Matías 
 description: Undergraduate Directed Research Student
-lastname: Ansaldo
+lastname: Palma
 publications: 
 
 
 teaser: >
-    Agostino Ansaldo is a fourth-year Civil Industrial Engineering student at Universidad Adolfo Ibáñez in Chile. His research focuses on public health logistics, particularly the Home Health Care Scheduling and Routing Problem. Under the direction of Prof. Jorge Acuña, he is currently optimizing the allocation and scheduling of home health services to improve efficiency and patient outcomes. The project is being carried out in collaboration with a CESFAM in Peñalolén, Santiago.
+    Matías Palma is a fourth-year Civil Industrial Engineering student at Universidad Adolfo Ibáñez in Chile. His research focuses on public health logistics, particularly the Home Health Care Scheduling and Routing Problem. Under the direction of Prof. Jorge Acuña, he is currently optimizing the allocation and scheduling of home health services to improve efficiency and patient outcomes. The project is being carried out in collaboration with a CESFAM in Peñalolén, Santiago.
 
 
 
 
 profile:
-    name: Agostino Ansaldo
+    name: Matías Palma
     position: Undergraduate Directed Research Student
     align: right
     image: AGOSTINO_2.jpeg
-    email: agansaldo@alumnos.uai.cl
+    email: matipalma@alumnos.uai.cl
     phone: 
     website: 
     twitter: 
