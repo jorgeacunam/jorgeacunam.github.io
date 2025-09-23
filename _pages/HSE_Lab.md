@@ -7,7 +7,7 @@ nav: true
 nav_order: 7
 ---
 <div style="text-align: center; margin-top: 20px;">
-    <img src="/assets/img/Banner3.jpg" alt="HSE Lab Image" style="max-width: 100%; width: 600px;" />
+    <img src="/assets/img/Banner3.jpg" alt="HSE Lab Image" style="max-width: 100%; width: 600px; margin-bottom: 40px" />
 </div>
 
 The Health Systems Engineering Lab (HSE Lab) was created to bridge the gap between academic engineering research and the national healthcare practice. In recent years, healthcare systems have encountered growing demand, greater service complexity, resource limitations, and access challenges both nationally and internationally. Simultaneously, there has been a data revolution in healthcare, necessitating robust ethical and professional frameworks to safeguard patient privacy. By combining engineering expertise and systems thinking with healthcare professionals' knowledge, the HSE Lab aims to develop solutions that enhance healthcare efficiency and effectiveness. The lab utilizes operations research tools, including stochastic programming, multi-objective optimization, and game theory, to make decisions in complex systems. Additionally, it employs learning algorithms to forecast, advise, and personalize healthcare and hospital management.
