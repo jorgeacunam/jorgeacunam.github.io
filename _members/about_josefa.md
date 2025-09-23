@@ -1,26 +1,26 @@
 ---
 layout: about
 inline: false
-group: Undergraduate Students
-group_rank: 3
-group_order: 3
+group: Graduate Students
+group_rank: 2
+group_order: 1
 external: true
 
 
 title: Josefa Bravo
-description: Undergraduate Directed Research Student
+description: Master Student in Engineering Sciences
 lastname: Bravo
 publications: 
 
 
 teaser: >
-    Josefa Bravo Parra is a fourth-year Civil Industrial Engineering student at the Universidad Adolfo Ibáñez, Chile. Her academic interests are focused on Machine Learning and Deep Learning models. Currently, under the supervision of Prof. Jorge Acuña, PhD, she is involved in developing predictive models to estimate surgery duration for cancer patients.
+    Josefa Bravo Parra is a student of the Master of Science in Data Science at the Universidad Adolfo Ibáñez, Chile. Her academic interests are focused on Machine Learning and Deep Learning models. Currently, under the supervision of Prof. Jorge Acuña, PhD, she is involved in developing predictive models to estimate surgery duration for cancer patients.
 
 
 
 profile:
     name: Josefa Bravo
-    position: Undergraduate Directed Research Student
+    position: Master of Science in Data Science
     align: right
     image: JOSEFA.jpeg
     email: josefbravo@alumnos.uai.cl
