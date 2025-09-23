@@ -1,27 +1,27 @@
 ---
 layout: about
 inline: false
-group: Undergraduate Students
-group_rank: 3
-group_order: 1
+group: Master Student in Engineering Sciences
+group_rank: 2
+group_order: 3
 external: true
 
 
 title: Agostino Ansaldo
-description: Undergraduate Directed Research Student
+description: Master Student in Engineering Sciences
 lastname: Ansaldo
 publications: 
 
 
 teaser: >
-    Agostino Ansaldo is a fourth-year Civil Industrial Engineering student at Universidad Adolfo Ibáñez in Chile. His research focuses on public health logistics, particularly the Home Health Care Scheduling and Routing Problem. Under the direction of Prof. Jorge Acuña, he is currently optimizing the allocation and scheduling of home health services to improve efficiency and patient outcomes. The project is being carried out in collaboration with a CESFAM in Peñalolén, Santiago.
+    Agostino Ansaldo is a Master's student in Industrial Engineering at Universidad Adolfo Ibáñez in Chile. His research focuses on public health logistics, particularly in the operating room resource utilization. Under the direction of Prof. Jorge Acuña, he is currently optimizing the assignment and scheduling of surgical services to improve efficiency and patient outcomes. The project is being carried out in collaboration with private and public institutions in Chile.
 
 
 
 
 profile:
     name: Agostino Ansaldo
-    position: Undergraduate Directed Research Student
+    position: Master Student in Engineering Sciences
     align: right
     image: AGOSTINO_2.jpeg
     email: agansaldo@alumnos.uai.cl
