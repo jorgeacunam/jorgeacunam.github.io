@@ -20,7 +20,7 @@ profile:
     name: Bárbara Guichaquelen
     position: Master Student in Engineering Sciences
     align: right
-    image: barbara.jpg
+    image: barbara.jpeg
     email: bguichaquelen@alumnos.uai.cl
     phone: 
     website: 
