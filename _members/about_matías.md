@@ -14,8 +14,7 @@ publications:
 
 
 teaser: >
-    Matías Palma is a fourth-year Civil Industrial Engineering student at Universidad Adolfo Ibáñez in Chile. 
-
+    Matías Palma Escobar is a fourth-year Civil Industrial Engineering student at Universidad Adolfo Ibáñez in Chile. He is passionate about applied mathematics and decision sciences, with a strong interest in robust optimization and its real-world applications. His current work develops models to handle uncertainty in complex systems, improving efficiency and reliability in resource allocation. Working alongside Agostino Ansaldo (Master’s student in Industrial Engineering) and under the supervision of Prof. Jorge Acuña, he focuses on the assignment and scheduling of surgical services to enhance efficiency and patient outcomes, exploring advanced optimization methods for better, data-driven decisions.
 
 
 
