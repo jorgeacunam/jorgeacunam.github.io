@@ -1,8 +1,8 @@
 ---
 layout: about
 inline: false
-group: Graduate Students
-group_rank: 2
+group: Master Students
+group_rank: 3
 group_order: 3
 external: true
 
