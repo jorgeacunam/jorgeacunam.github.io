@@ -19,7 +19,7 @@ profile:
     name: Joris van de Klundert, Ph.D.
     position: Full Professor -  Operations Research & School of Business UAI
     align: right
-    image: stefano.png
+    image: Joris.jpg
     email: JORIS.VANDEKLUNDERT@UAI.CL
     phone: +56223311052
     website: https://www.uai.cl/profesores/negocios/joris-van-de-klundert
