@@ -25,7 +25,7 @@ profile:
     website: https://www.uai.cl/profesores/negocios/joris-van-de-klundert
     scholar_userid: VQchlPYAAAAJ
     twitter: 
-    orcid: 0000-0001-8600-8000
+    orcid: 0000-0003-4151-5089
     address: >
        School of Business - UAI<br />
        Av. Padre Hurtado 750.<br />        
