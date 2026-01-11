@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Jorge Acuña is an Assistant Professor of Operations Research and the director/founder of the [Health Systems Engineering Laboratory (HSE Lab)](https://jorgeacunam.github.io/HSE/) at Universidad Adolfo Ibáñez. He also holds a Courtesy Assistant Professor position in Industrial and Management Systems Engineering at the University of South Florida [(USF)](https://www.usf.edu/engineering/imse/). His research is built upon the intersection of operations research and healthcare systems to improve patient outcomes and access. 
+Jorge Acuña is an Assistant Professor of Operations Research and the director/founder of the [Health Systems Engineering Laboratory (HSE Lab)](https://jorgeacunam.github.io/HSE/) at Universidad Adolfo Ibáñez. He also holds a Courtesy Professor position in Industrial and Management Systems Engineering at the University of South Florida [(USF)](https://www.usf.edu/engineering/imse/). His research is built upon the intersection of operations research and healthcare systems to improve patient outcomes and access. 
 
 Professor Acuña has a track record of developing innovative mathematical models anchored in optimization, game theory, and stochastic programming to address critical health issues. Current research activities focus on emergency department overcrowding, waiting lists, health investment, food waste, length of stay, surgery schedule, kidney transplants, and emergency medical services. 
 
