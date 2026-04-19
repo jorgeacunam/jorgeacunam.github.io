@@ -2,7 +2,7 @@
 layout: page
 permalink: /talk/
 title: Talks
-description: Listed here are invited presentations. For further project talks, check my <a href='https://jorgeacunam.github.io/assets/pdf/CV_Jorge_Acuna_2024.pdf'>CV by clicking HERE</a>.
+description: Listed here are invited presentations. For further project talks, check my <a href='https://jorgeacunam.github.io/assets/pdf/Jorge_Acuna_CV_abril_2026.pdf'>CV by clicking HERE</a>.
 nav: true
 nav_order: 3
 ---
