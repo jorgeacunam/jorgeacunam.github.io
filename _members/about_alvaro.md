@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: false
-group: Master Students
+group: Alumni
 group_rank: 5
 group_order: 3
 external: true
