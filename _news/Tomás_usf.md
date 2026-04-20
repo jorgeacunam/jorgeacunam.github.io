@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Master student**[Tomás Garnham](https://jorgeacunam.github.io/team.html#tomas-garnham)** has begun a three-month research stay at the [University of South Florida (USF)](https://www.usf.edu), collaborating on stochastic optimization and healthcare systems projects.
+Master student **[Tomás Garnham](https://jorgeacunam.github.io/team.html#tomas-garnham)** has begun a three-month research stay at the [University of South Florida (USF)](https://www.usf.edu), collaborating on stochastic optimization and healthcare systems projects.
