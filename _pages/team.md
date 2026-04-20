@@ -3,70 +3,126 @@ layout: page
 permalink: /team.html
 title: Team
 page-title: HSE Lab
-description: Members of the Health Systems Engineering Laboratory (HSE Lab). 
+description: Members of the Health Systems Engineering Laboratory (HSE Lab).
 nav: true
 nav_order: 8
 nav_rank:
 ---
 
 <style>
-details {
+.team-filters {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.team-filter-btn {
+  border: 1px solid #d0d0d0;
+  background: #f8f9fa;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+
+.team-filter-btn:hover {
+  background: #eceff1;
+}
+
+.team-filter-btn.active {
+  background: #dbeafe;
+  border-color: #93c5fd;
+  font-weight: 600;
+}
+
+.team-group {
   margin-bottom: 1.5rem;
   border-bottom: 1px solid #eaeaea;
   padding-bottom: 0.5rem;
 }
 
-details summary {
+.team-group summary {
   cursor: pointer;
   font-weight: 600;
   font-size: 1.4rem;
   list-style: none;
   display: flex;
   align-items: center;
+  user-select: none;
 }
 
-details summary::before {
+.team-group summary::-webkit-details-marker {
+  display: none;
+}
+
+.team-group summary::before {
   content: "▶";
   font-size: 0.9rem;
   margin-right: 0.6rem;
   transition: transform 0.2s ease;
 }
 
-details[open] summary::before {
+.team-group[open] summary::before {
   content: "▼";
 }
 
-details summary:hover {
+.team-group summary:hover {
   opacity: 0.8;
+}
+
+.member-card-wrapper {
+  margin-top: 1rem;
+  scroll-margin-top: 90px;
+}
+
+.member-card-wrapper.highlight-target .card {
+  border: 2px solid #93c5fd;
+  box-shadow: 0 0 0 0.2rem rgba(147, 197, 253, 0.35);
+  transition: box-shadow 0.3s ease, border 0.3s ease;
 }
 
 .card {
   margin-top: 1rem;
 }
+
+.team-hidden {
+  display: none !important;
+}
 </style>
 
 {% assign groups = site.members | sort: "group_rank" | map: "group" | uniq %}
 
+<div class="team-filters">
+  <button class="team-filter-btn active" data-filter="all">All</button>
+  {% for group in groups %}
+    <button class="team-filter-btn" data-filter="{{ group | slugify }}">{{ group }}</button>
+  {% endfor %}
+</div>
+
 {% for group in groups %}
-<details>
+<details class="team-group" data-group="{{ group | slugify }}">
   <summary>{{ group }}</summary>
 
   {% assign members = site.members | sort: "group_order" | where: "group", group %}
-  
+
   {% for member in members %}
-  <div id="{{ member.profile.name | slugify }}">
+  <div id="{{ member.profile.name | slugify }}" class="member-card-wrapper">
     <div class="card {% if member.inline == false %}hoverable{% endif %}">
       <div class="row no-gutters">
-        
+
         <div class="col-sm-4 col-md-3">
-          <img src="{{ '/assets/img/team/' | append: member.profile.image | relative_url }}" 
-               class="card-img img-fluid" 
-               alt="{{ member.profile.name }}" />
+          <img
+            src="{{ '/assets/img/team/' | append: member.profile.image | relative_url }}"
+            class="card-img img-fluid"
+            alt="{{ member.profile.name }}"
+          />
         </div>
 
         <div class="team col-sm-8 col-md-9">
           <div class="card-body">
-            
+
             <h5 class="card-title">{{ member.profile.name }}</h5>
 
             {% if member.profile.position %}
@@ -102,7 +158,7 @@ details summary:hover {
 
             <p class="card-text">
               <small class="text-muted">
-                <i class="fas fa-thumbtack"></i> 
+                <i class="fas fa-thumbtack"></i>
                 {{ member.profile.address | replace: '<br />', ', ' }}
               </small>
             </p>
@@ -117,3 +173,65 @@ details summary:hover {
 
 </details>
 {% endfor %}
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const buttons = document.querySelectorAll(".team-filter-btn");
+  const groups = document.querySelectorAll(".team-group");
+
+  function applyFilter(filter) {
+    buttons.forEach(btn => {
+      btn.classList.toggle("active", btn.dataset.filter === filter);
+    });
+
+    groups.forEach(group => {
+      const matches = filter === "all" || group.dataset.group === filter;
+      group.classList.toggle("team-hidden", !matches);
+    });
+  }
+
+  buttons.forEach(button => {
+    button.addEventListener("click", function () {
+      const filter = this.dataset.filter;
+      applyFilter(filter);
+    });
+  });
+
+  function clearHighlights() {
+    document.querySelectorAll(".member-card-wrapper.highlight-target").forEach(el => {
+      el.classList.remove("highlight-target");
+    });
+  }
+
+  function openAndFocusHashTarget() {
+    const hash = window.location.hash;
+    if (!hash) return;
+
+    const target = document.querySelector(hash);
+    if (!target) return;
+
+    const parentGroup = target.closest(".team-group");
+    if (!parentGroup) return;
+
+    applyFilter("all");
+    parentGroup.open = true;
+
+    clearHighlights();
+    target.classList.add("highlight-target");
+
+    setTimeout(() => {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 150);
+
+    setTimeout(() => {
+      target.classList.remove("highlight-target");
+    }, 4000);
+  }
+
+  openAndFocusHashTarget();
+
+  window.addEventListener("hashchange", function () {
+    openAndFocusHashTarget();
+  });
+});
+</script>
