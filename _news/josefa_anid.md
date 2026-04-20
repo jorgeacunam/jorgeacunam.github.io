@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**[Josefa Bravo](https://jorgeacunam.github.io/team.html#josefa-bravo)** has been awarded the [ANID](https://www.anid.cl) National Master’s Scholarship, ranking 10th nationwide.
+Master student **[Josefa Bravo](https://jorgeacunam.github.io/team.html#josefa-bravo)** has been awarded the [ANID](https://www.anid.cl) National Master’s Scholarship, ranking 10th nationwide.
