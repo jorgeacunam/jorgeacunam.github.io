@@ -10,6 +10,7 @@ nav_rank:
 ---
 
 <style>
+/* ===== FILTER BUTTONS ===== */
 .team-filters {
   margin-bottom: 1.5rem;
   display: flex;
@@ -18,8 +19,7 @@ nav_rank:
 }
 
 .team-filter-btn {
-  border: 1px solid #d0d0d0;
-  background: #f8f9fa;
+  border: 1px solid #d1d5db;
   padding: 0.45rem 0.8rem;
   border-radius: 999px;
   cursor: pointer;
@@ -28,18 +28,17 @@ nav_rank:
 }
 
 .team-filter-btn:hover {
-  background: #eceff1;
+  opacity: 0.9;
 }
 
 .team-filter-btn.active {
-  background: #dbeafe;
-  border-color: #93c5fd;
   font-weight: 600;
 }
 
+/* ===== COLLAPSIBLE GROUPS ===== */
 .team-group {
   margin-bottom: 1.5rem;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #e5e7eb;
   padding-bottom: 0.5rem;
 }
 
@@ -50,7 +49,6 @@ nav_rank:
   list-style: none;
   display: flex;
   align-items: center;
-  user-select: none;
 }
 
 .team-group summary::-webkit-details-marker {
@@ -61,30 +59,25 @@ nav_rank:
   content: "▶";
   font-size: 0.9rem;
   margin-right: 0.6rem;
-  transition: transform 0.2s ease;
 }
 
 .team-group[open] summary::before {
   content: "▼";
 }
 
-.team-group summary:hover {
-  opacity: 0.8;
+/* ===== CARDS ===== */
+.card {
+  margin-top: 1rem;
 }
 
+/* ===== MEMBER TARGETING ===== */
 .member-card-wrapper {
-  margin-top: 1rem;
   scroll-margin-top: 90px;
 }
 
 .member-card-wrapper.highlight-target .card {
   border: 2px solid #93c5fd;
   box-shadow: 0 0 0 0.2rem rgba(147, 197, 253, 0.35);
-  transition: box-shadow 0.3s ease, border 0.3s ease;
-}
-
-.card {
-  margin-top: 1rem;
 }
 
 .team-hidden {
@@ -113,11 +106,9 @@ nav_rank:
       <div class="row no-gutters">
 
         <div class="col-sm-4 col-md-3">
-          <img
-            src="{{ '/assets/img/team/' | append: member.profile.image | relative_url }}"
-            class="card-img img-fluid"
-            alt="{{ member.profile.name }}"
-          />
+          <img src="{{ '/assets/img/team/' | append: member.profile.image | relative_url }}"
+               class="card-img img-fluid"
+               alt="{{ member.profile.name }}" />
         </div>
 
         <div class="team col-sm-8 col-md-9">
@@ -176,6 +167,7 @@ nav_rank:
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+
   const buttons = document.querySelectorAll(".team-filter-btn");
   const groups = document.querySelectorAll(".team-group");
 
@@ -187,18 +179,23 @@ document.addEventListener("DOMContentLoaded", function () {
     groups.forEach(group => {
       const matches = filter === "all" || group.dataset.group === filter;
       group.classList.toggle("team-hidden", !matches);
+
+      if (filter === "all") {
+        group.open = false;
+      } else {
+        group.open = matches;
+      }
     });
   }
 
   buttons.forEach(button => {
     button.addEventListener("click", function () {
-      const filter = this.dataset.filter;
-      applyFilter(filter);
+      applyFilter(this.dataset.filter);
     });
   });
 
   function clearHighlights() {
-    document.querySelectorAll(".member-card-wrapper.highlight-target").forEach(el => {
+    document.querySelectorAll(".highlight-target").forEach(el => {
       el.classList.remove("highlight-target");
     });
   }
@@ -213,7 +210,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const parentGroup = target.closest(".team-group");
     if (!parentGroup) return;
 
-    applyFilter("all");
+    const groupFilter = parentGroup.dataset.group;
+    applyFilter(groupFilter);
+
     parentGroup.open = true;
 
     clearHighlights();
@@ -228,10 +227,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 4000);
   }
 
+  applyFilter("all");
   openAndFocusHashTarget();
 
-  window.addEventListener("hashchange", function () {
-    openAndFocusHashTarget();
-  });
+  window.addEventListener("hashchange", openAndFocusHashTarget);
 });
 </script>
