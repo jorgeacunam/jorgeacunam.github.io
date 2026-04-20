@@ -3,7 +3,7 @@ layout: about
 inline: false
 group: Alumni
 group_rank: 5
-group_order: 3
+group_order: 4
 external: true
 
 
