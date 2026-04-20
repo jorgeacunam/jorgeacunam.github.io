@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", function () {
       group.classList.toggle("team-hidden", !matches);
 
       if (filter === "all") {
-        group.open = false;
+        group.open = true;
       } else {
         group.open = matches;
       }
