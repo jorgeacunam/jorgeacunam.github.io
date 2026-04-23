@@ -123,7 +123,7 @@ nav_rank:
             <div class="team-card-img-wrap">
               <img
                 class="team-card-img"
-                src="{{ '/assets/img/' | append: member.profile.image | relative_url }}"
+                src="{{ '/assets/img/team/' | append: member.profile.image | relative_url }}"
                 alt="{{ member.profile.name }}"
               >
             </div>
