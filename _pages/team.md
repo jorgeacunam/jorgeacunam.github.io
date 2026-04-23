@@ -10,226 +10,166 @@ nav_rank:
 ---
 
 <style>
-/* ===== FILTER BUTTONS ===== */
-.team-filters {
-  margin-bottom: 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+.team-section {
+  margin-bottom: 3rem;
 }
 
-.team-filter-btn {
-  border: 1px solid #d1d5db;
-  padding: 0.45rem 0.8rem;
-  border-radius: 999px;
-  cursor: pointer;
-  font-size: 0.95rem;
-  transition: all 0.2s ease;
-}
-
-.team-filter-btn:hover {
-  opacity: 0.9;
-}
-
-.team-filter-btn.active {
-  font-weight: 600;
-}
-
-/* ===== COLLAPSIBLE GROUPS ===== */
-.team-group {
-  margin-bottom: 1.5rem;
-  border-bottom: 1px solid #e5e7eb;
-  padding-bottom: 0.5rem;
-}
-
-.team-group summary {
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 1.4rem;
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
-
-.team-group summary::-webkit-details-marker {
-  display: none;
-}
-
-.team-group summary::before {
-  content: "▶";
-  font-size: 0.9rem;
-  margin-right: 0.6rem;
-}
-
-.team-group[open] summary::before {
-  content: "▼";
-}
-
-/* ===== CARDS ===== */
-.card {
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
   margin-top: 1rem;
 }
 
-/* ===== MEMBER TARGETING ===== */
-.member-card-wrapper {
-  scroll-margin-top: 90px;
+.team-card {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-.member-card-wrapper.highlight-target .card {
-  border: 2px solid #93c5fd;
-  box-shadow: 0 0 0 0.2rem rgba(147, 197, 253, 0.35);
+.team-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.10);
 }
 
-.team-hidden {
-  display: none !important;
+.team-card-img-wrap {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #f6f6f6;
+}
+
+.team-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.team-card-body {
+  padding: 1.2rem 1.2rem 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  flex: 1;
+}
+
+.team-card-name {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+
+.team-card-role {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #666;
+}
+
+.team-card-position {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.team-card-bio {
+  margin: 0.2rem 0 0 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.team-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.4rem;
+  font-size: 0.92rem;
+}
+
+.team-card-links a {
+  text-decoration: none;
+}
+
+.team-card-address {
+  margin-top: auto;
+  padding-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #777;
+  line-height: 1.5;
+  border-top: 1px solid rgba(0,0,0,0.06);
 }
 </style>
 
 {% assign groups = site.members | sort: "group_rank" | map: "group" | uniq %}
 
-<div class="team-filters">
-  <button class="team-filter-btn active" data-filter="all">All</button>
-  {% for group in groups %}
-    <button class="team-filter-btn" data-filter="{{ group | slugify }}">{{ group }}</button>
-  {% endfor %}
-</div>
-
 {% for group in groups %}
-<details class="team-group" data-group="{{ group | slugify }}">
-  <summary>{{ group }}</summary>
-
   {% assign members = site.members | sort: "group_order" | where: "group", group %}
 
-  {% for member in members %}
-  <div id="{{ member.profile.name | slugify }}" class="member-card-wrapper">
-    <div class="card {% if member.inline == false %}hoverable{% endif %}">
-      <div class="row no-gutters">
+  <section class="team-section">
+    <h2>{{ group }}</h2>
 
-        <div class="col-sm-4 col-md-3">
-          <img src="{{ '/assets/img/team/' | append: member.profile.image | relative_url }}"
-               class="card-img img-fluid"
-               alt="{{ member.profile.name }}" />
-        </div>
+    <div class="team-grid">
+      {% for member in members %}
+        <div class="team-card">
+          {% if member.profile.image %}
+            <div class="team-card-img-wrap">
+              <img
+                class="team-card-img"
+                src="{{ '/assets/img/' | append: member.profile.image | relative_url }}"
+                alt="{{ member.profile.name }}"
+              >
+            </div>
+          {% endif %}
 
-        <div class="team col-sm-8 col-md-9">
-          <div class="card-body">
+          <div class="team-card-body">
+            <h3 class="team-card-name">{{ member.profile.name }}</h3>
 
-            <h5 class="card-title">{{ member.profile.name }}</h5>
+            {% if member.group %}
+              <p class="team-card-role">{{ member.group | replace: "-", " " }}</p>
+            {% endif %}
 
-            {% if member.profile.position %}
-              {% if member.profile.team-position %}
-                <h6 class="card-subtitle mb-2 text-muted">{{ member.profile.team-position }}</h6>
-              {% else %}
-                <h6 class="card-subtitle mb-2 text-muted">{{ member.profile.position }}</h6>
+            {% if member.profile.team-position %}
+              <p class="team-card-position">{{ member.profile.team-position }}</p>
+            {% elsif member.profile.position %}
+              <p class="team-card-position">{{ member.profile.position }}</p>
+            {% endif %}
+
+            {% if member.teaser %}
+              <p class="team-card-bio">{{ member.teaser | strip_html }}</p>
+            {% endif %}
+
+            <div class="team-card-links">
+              {% if member.profile.email %}
+                <a href="mailto:{{ member.profile.email }}">Email</a>
               {% endif %}
-            {% endif %}
+              {% if member.profile.website %}
+                <a href="{{ member.profile.website }}" target="_blank" rel="noopener noreferrer">Website</a>
+              {% endif %}
+              {% if member.profile.orcid %}
+                <a href="https://orcid.org/{{ member.profile.orcid }}" target="_blank" rel="noopener noreferrer">ORCID</a>
+              {% endif %}
+              {% if member.profile.github %}
+                <a href="https://github.com/{{ member.profile.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+              {% endif %}
+            </div>
 
-            <p class="card-text">
-              {{ member.teaser }}
-            </p>
-
-            {% if member.profile.email %}
-              <a href="mailto:{{ member.profile.email }}" class="card-link"><i class="fas fa-envelope"></i></a>
+            {% if member.profile.address %}
+              <div class="team-card-address">
+                {{ member.profile.address | replace: '
+', '<br>' }}
+              </div>
             {% endif %}
-            {% if member.profile.phone %}
-              <a href="tel:{{ member.profile.phone }}" class="card-link"><i class="fas fa-phone"></i></a>
-            {% endif %}
-            {% if member.profile.orcid %}
-              <a href="https://orcid.org/{{ member.profile.orcid }}" class="card-link" target="_blank"><i class="fab fa-orcid"></i></a>
-            {% endif %}
-            {% if member.profile.twitter %}
-              <a href="https://twitter.com/{{ member.profile.twitter }}" class="card-link" target="_blank"><i class="fab fa-twitter"></i></a>
-            {% endif %}
-            {% if member.profile.github %}
-              <a href="https://github.com/{{ member.profile.github }}" class="card-link" target="_blank"><i class="fab fa-github"></i></a>
-            {% endif %}
-            {% if member.profile.website %}
-              <a href="{{ member.profile.website }}" class="card-link" target="_blank"><i class="fas fa-globe"></i></a>
-            {% endif %}
-
-            <p class="card-text">
-              <small class="text-muted">
-                <i class="fas fa-thumbtack"></i>
-                {{ member.profile.address | replace: '<br />', ', ' }}
-              </small>
-            </p>
-
           </div>
         </div>
-
-      </div>
+      {% endfor %}
     </div>
-  </div>
-  {% endfor %}
-
-</details>
+  </section>
 {% endfor %}
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-
-  const buttons = document.querySelectorAll(".team-filter-btn");
-  const groups = document.querySelectorAll(".team-group");
-
-  function applyFilter(filter) {
-    buttons.forEach(btn => {
-      btn.classList.toggle("active", btn.dataset.filter === filter);
-    });
-
-    groups.forEach(group => {
-      const matches = filter === "all" || group.dataset.group === filter;
-      group.classList.toggle("team-hidden", !matches);
-
-      if (filter === "all") {
-        group.open = true;
-      } else {
-        group.open = matches;
-      }
-    });
-  }
-
-  buttons.forEach(button => {
-    button.addEventListener("click", function () {
-      applyFilter(this.dataset.filter);
-    });
-  });
-
-  function clearHighlights() {
-    document.querySelectorAll(".highlight-target").forEach(el => {
-      el.classList.remove("highlight-target");
-    });
-  }
-
-  function openAndFocusHashTarget() {
-    const hash = window.location.hash;
-    if (!hash) return;
-
-    const target = document.querySelector(hash);
-    if (!target) return;
-
-    const parentGroup = target.closest(".team-group");
-    if (!parentGroup) return;
-
-    const groupFilter = parentGroup.dataset.group;
-    applyFilter(groupFilter);
-
-    parentGroup.open = true;
-
-    clearHighlights();
-    target.classList.add("highlight-target");
-
-    setTimeout(() => {
-      target.scrollIntoView({ behavior: "smooth", block: "start" });
-    }, 150);
-
-    setTimeout(() => {
-      target.classList.remove("highlight-target");
-    }, 4000);
-  }
-
-  applyFilter("all");
-  openAndFocusHashTarget();
-
-  window.addEventListener("hashchange", openAndFocusHashTarget);
-});
-</script>
