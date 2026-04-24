@@ -5,4 +5,4 @@ place: Virtual, USA
 inline: true
 ---
 
-INFORMS Healthcare at MIT: `Mergers and Competition in Healthcare Markets: A Key to Affordable Care`.
+INFORMS Healthcare: `Mergers and Competition in Healthcare Markets: A Key to Affordable Care`.
