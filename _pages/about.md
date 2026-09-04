@@ -25,5 +25,5 @@ Professor Acuña has a track record of developing innovative mathematical models
 He received his Ph.D. (2021) and MSc. (2018) in Industrial Engineering from USF and a B.S. in Civil Industrial Engineering from Universidad de La Frontera in 2015. Over the past few years, he has lectured medical students on operations research and mentored engineering doctoral and master students.  
 
 <div style="text-align: center; margin-top: 2rem;">
-<a href="https://info.flagcounter.com/zLSg"><img src="https://s05.flagcounter.com/count2/zLSg/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_40/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+<a href="https://info.flagcounter.com/HeOC"><img src="https://s01.flagcounter.com/count2/HeOC/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_60/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 </div>
