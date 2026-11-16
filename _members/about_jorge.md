@@ -8,17 +8,17 @@ external: true
 
 
 title: Jorge Acuña, Ph.D.
-description: Assistant Professor - Operations Research & Industrial Engineering 
+description: Assistant Professor - Industrial Engineering & Operations Research, Head of MCI Industrial 
 lastname: Acuña
 publications: 
 
 
 teaser: >
-    Jorge Acuña is an Assistant Professor of Industrial Engineering and the founding director of the Health Systems Engineering Laboratory (HSE Lab) at Universidad Adolfo Ibáñez. He also holds a Courtesy Professor position at the University of South Florida (USF). His research focuses on developing and applying operations research and data science techniques to healthcare systems, seeking to improve patient outcomes, efficiency, fairness, and access. Throughout his career, he has developed mathematical models grounded in optimization, game theory, and stochastic programming to address challenges such as emergency department overcrowding, waiting lists, kidney transplants, food waste, surgery scheduling, and emergency medical services. Professor Acuña earned his Ph.D. (2021) and MSc. (2018) in Industrial Engineering from USF, and a B.S. in Industrial Engineering from Universidad de La Frontera (2015).
+    Jorge Acuña is an Assistant Professor of Industrial Engineering and the founding director of the Health Systems Engineering Laboratory (HSE Lab) at Universidad Adolfo Ibáñez, where he also serves as Head of the Master of Engineering Sciences (MCI) program, Industrial Engineering specialization. He also holds a Courtesy Professor position at the University of South Florida (USF). His research focuses on developing and applying operations research and data science techniques to healthcare systems, seeking to improve patient outcomes, efficiency, fairness, and access. Throughout his career, he has developed mathematical models grounded in optimization, game theory, and stochastic programming to address challenges such as emergency department overcrowding, waiting lists, kidney transplants, cancer care, home healthcare, food waste, surgery scheduling, and emergency medical services. Professor Acuña earned his Ph.D. (2021) and MSc. (2018) in Industrial Engineering from USF, and a B.S. in Industrial Engineering from Universidad de La Frontera (2015).
 
 profile:
     name: Jorge Acuña, Ph.D.
-    position:  Assistant Professor - Operations Research & Industrial Engineering UAI
+    position:  Assistant Professor - Industrial Engineering & Operations Research UAI | Head of MCI Industrial
     align: right
     image: Jorge.JPG
     email: jorge.acuna@uai.cl
