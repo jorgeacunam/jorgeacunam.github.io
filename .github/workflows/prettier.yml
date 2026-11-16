@@ -1,14 +1,8 @@
 name: Prettier code formatter
 
 on:
-  pull_request:
-    branches:
-      - master
-      - main
-  push:
-    branches:
-      - master
-      - main
+  # Disabled on push/PR (formatting check only); run manually if needed
+  workflow_dispatch:
 
 jobs:
   check:
