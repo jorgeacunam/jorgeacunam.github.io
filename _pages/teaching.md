@@ -8,7 +8,7 @@ nav_order: 6
 ---
 
 * [Universidad Adolfo Ibáñez](#UAI)
-  * [Thesis Research and Development Seminar (MCI, graduate).](#seminar)
+  * [MCI513 Thesis Research and Development Seminar.](#seminar)
   * [Health Decision-Making (Graduate Diploma in Applied AI in Health).](#healthdm)
   * [ING200 Optimization.](#optimization)
   * [ING480 Process and Service Design.](#process)
@@ -25,8 +25,15 @@ nav_order: 6
 ---
 
 ### Universidad Adolfo Ibáñez <a id="UAI"></a>
-#### Thesis Research and Development Seminar (MCI) <a id="seminar"></a>
-Graduate course in the Master of Engineering Sciences (MCI) program, taught since the second semester of 2026. The seminar accompanies students through the development of their master's thesis: defining a relevant research problem, reviewing the literature, formulating objectives and methodology, and communicating results. Students present their progress regularly and receive feedback from faculty and peers, with the goal of producing a solid thesis proposal and advancing toward a publishable piece of research.
+#### MCI513 Thesis Research and Development Seminar <a id="seminar"></a>
+Graduate course for academic master's students (Master of Engineering Sciences, MCI), co-taught since the second semester of 2026. The course introduces the main tools for conducting scientific and applied research, with an emphasis on scientific writing and communication. Students learn how to find and read scientific papers, define a research problem and review the state of the art, formulate hypotheses and objectives, design a methodology, manage data, and present results, discussion, and conclusions. The course also covers productive writing habits, LaTeX and BibTeX, data visualization, posters and graphical abstracts, and research ethics and bias. Throughout the semester, students develop their thesis proposal in close interaction with their thesis advisors.
+
+Learning Outcomes
+
+* Apply scientific writing tools to manuscripts and research reports.
+* Present research results effectively, both orally and visually.
+* Understand and build every component of a research proposal: state of the art, hypotheses and objectives, methodology, work plan, and feasibility.
+* Deliver a thesis proposal and present it to a faculty committee.
 
 #### Health Decision-Making (Graduate Diploma in Applied AI in Health) <a id="healthdm"></a>
 Online graduate course in the Diploma in Applied Artificial Intelligence in Health (2026). Health systems and organizations make daily decisions with limited resources: how to distribute vaccines or supplies across territories, where to locate a care facility, how many professionals to assign to each shift, or how to reduce patient waiting times. Building on the predictive and classification models developed earlier in the diploma, this course takes the next step: turning data and predictions into decisions in public health and healthcare management. It integrates three families of tools: data visualization, to communicate information and monitor indicators; process analysis and improvement, to diagnose capacity, waiting times, and quality; and optimization, to select the best alternative under limited resources. The course is applied and case-based, using Python tools prepared for the class.
