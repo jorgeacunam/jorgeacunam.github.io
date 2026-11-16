@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Prof. Jorge Acuna has been appointed **Head of the Master of Engineering Sciences (MCI) program, Industrial Engineering specialization**, at Universidad Adolfo Ibáñez.
+Prof. Jorge Acuña has been appointed **Head of the Master of Engineering Sciences (MCI) program, Industrial Engineering specialization**, at Universidad Adolfo Ibáñez.

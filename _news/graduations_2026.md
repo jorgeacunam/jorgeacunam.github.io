@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations to **Daniela Cantarino** and **Mariana Arriz-Jorquiera**, who completed their Ph.D. degrees at the University of South Florida, co-advised by Prof. Jorge Acuna!
+Congratulations to **Daniela Cantariño** and **Mariana Arriz-Jorquiera**, who completed their Ph.D. degrees at the University of South Florida, co-advised by Prof. Jorge Acuña!
