@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /assets/pdf/Jorge_Acuna_CV_abril_2026.pdf
+permalink: /assets/pdf/Jorge_Acuna_CV_November_2026.pdf
 title: CV
 nav: true
 nav_order: 5
