@@ -29,7 +29,16 @@ nav_order: 6
 Graduate course in the Master of Engineering Sciences (MCI) program, taught since the second semester of 2026. The seminar accompanies students through the development of their master's thesis: defining a relevant research problem, reviewing the literature, formulating objectives and methodology, and communicating results. Students present their progress regularly and receive feedback from faculty and peers, with the goal of producing a solid thesis proposal and advancing toward a publishable piece of research.
 
 #### Health Decision-Making (Graduate Diploma in Applied AI in Health) <a id="healthdm"></a>
-Online graduate course, part of the Diploma in Applied Artificial Intelligence in Health (2026). The course introduces quantitative tools to support decisions in healthcare organizations, connecting predictive models with operations research methods to plan and allocate scarce resources such as operating rooms, beds, staff, and waiting lists. Through real cases from the Chilean and international health systems, participants learn to frame decision problems, interpret model outputs, and assess the trade-offs between efficiency, equity, and quality of care.
+Online graduate course in the Diploma in Applied Artificial Intelligence in Health (2026). Health systems and organizations make daily decisions with limited resources: how to distribute vaccines or supplies across territories, where to locate a care facility, how many professionals to assign to each shift, or how to reduce patient waiting times. Building on the predictive and classification models developed earlier in the diploma, this course takes the next step: turning data and predictions into decisions in public health and healthcare management. It integrates three families of tools: data visualization, to communicate information and monitor indicators; process analysis and improvement, to diagnose capacity, waiting times, and quality; and optimization, to select the best alternative under limited resources. The course is applied and case-based, using Python tools prepared for the class.
+
+Learning Outcomes
+
+* Design visualizations and indicators that clearly communicate health information to support decision-making.
+* Analyze healthcare delivery processes to diagnose their capacity and propose improvements.
+* Evaluate processes with waiting times and alternatives to improve service levels in healthcare.
+* Apply quality management tools to control and improve care processes.
+* Formulate, solve, and interpret optimization models for healthcare resource allocation.
+* Incorporate machine learning predictions into process analysis and optimization models to support health decisions.
 
 #### ING-200 Optimization <a id="optimization"></a>
 Optimization involves making the best selection from a set of elements. The goal is to achieve the best possible outcome, given limited resources. In mathematical terms, this refers to finding the optimal values that maximize or minimize a function, depending on the situation. Optimization is used in various problems, such as operations management, logistics, communications, and strategic planning, among many other areas. This course aims to develop skills that allow students to take an abstract decision-making problem, appropriately model it as an optimization problem, solve it, and interpret its solution. The general topics covered in the course are modeling, linear programming, sensitivity analysis, integer programming, and nonlinear programming.
