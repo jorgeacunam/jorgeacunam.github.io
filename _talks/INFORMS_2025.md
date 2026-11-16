@@ -5,4 +5,4 @@ place: Atlanta, USA
 inline: true
 ---
 
-INFORMS Annual Meeting: `A Bi-Objective Robust Optimization Model for Equitable Allocation of Field Hospitalsin Surgical Backlog Reduction`.
+INFORMS Annual Meeting: `A Bi-Objective Robust Optimization Model for Equitable Allocation of Field Hospitals in Surgical Backlog Reduction`.
