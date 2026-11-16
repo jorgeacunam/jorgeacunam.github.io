@@ -15,7 +15,6 @@ nav_order: 6
 
 
 * [University of South Florida](#USF)
-  * [Linear Programming and Optimization in Healthcare (graduate).](#lphealth)
   * [EGN3443 Probability and Statistics for Engineers.](#prob)
   * [EGN4450 Introduction to Linear Systems.](#linear)
 
@@ -58,9 +57,6 @@ More specifically, by the end of the course, students will be able to:
 ---
 
 ### University of South Florida <a id="USF"></a>
-#### Linear Programming and Optimization in Healthcare <a id="lphealth"></a>
-Graduate course taught as Adjunct Faculty (Fall 2021 - Fall 2023). The course covers the formulation and solution of linear, integer, and network optimization models, with an emphasis on healthcare applications such as staff scheduling, operating room planning, patient flow, and resource allocation. Students use computational tools to solve realistic models and interpret their solutions to support managerial and policy decisions.
-
 #### EGN3443 Probability and Statistics for Engineers <a id="prob"></a>
 The world is divided into two realms: deterministic and probabilistic. Your math, physics, and chemistry course preparation has focused on "deterministic" models: a given set of inputs or conditions repeatedly produces a fixed, entirely predictable output. This course launches the student modeling skills into a new dimension wherein a given set of inputs or conditions produce random (or "chance" or "probabilistic" or "stochastic") outcomes. Examples include the characteristics of products leaving manufacturing lines (e.g., a lifetime of a bulb, the concentration of a therapeutic drug), results of laboratory experiments (e.g., growth rates of microorganisms), or processes observed over space or time (e.g., the spatial distribution of soil contaminants or time series of rainfall amounts). The field of statistics deals with the collection, presentation, analysis, and use of data to make decisions, solve problems, and design products and processes.
 
