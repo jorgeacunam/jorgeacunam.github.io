@@ -14,10 +14,10 @@ publications:
 
 
 teaser: >
-    Alvaro Palma Mejías is a Master's student in Engineering Sciences with a specialization in Industrial Engineering at Adolfo Ibáñez University. His research interests focus on operations management. His thesis explores discrete event simulation using Rockwell Arena software to propose improvements for a homecare service at a primary healthcare center (CESFAM) in Santiago. He is supervised by Professors Ruth Murrugarra and Jorge Acuña.
+    Álvaro Palma Mejías received his Master in Engineering Sciences (Industrial Engineering) from Universidad Adolfo Ibáñez in December 2025. His thesis, "Arena Simulation for the Operational Redesign of Home Care: A Case Study at CESFAM La Faena," used discrete event simulation to propose improvements for a homecare service at a primary healthcare center in Santiago. He was supervised by Professors Ruth Murrugarra and Jorge Acuña.
 profile:
     name: Álvaro Palma 
-    position: Master Student in Engineering Sciences
+    position: M.Sc. in Engineering Sciences (2025), UAI
     align: right
     image: ALVARO.JPG
     email: alvpalma@alumnos.uai.cl
